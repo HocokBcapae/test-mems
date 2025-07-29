@@ -54,6 +54,8 @@
   </div>
 </template>
 
+
+<!-- ... -->
 <script setup>
 import { ref, computed } from "vue";
 
@@ -168,7 +170,7 @@ font-family: 'MEMS', normal;
 
 /* Первый экран */
 .home-screen {
-  background-image: url(../../assets/img/homeBg.jpg);
+  background-image: url('@/assets/img/homeBg.jpg');
   background-size: cover;
   background-position: center;
 }

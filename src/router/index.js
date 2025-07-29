@@ -24,8 +24,8 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHistory(),
-  routes,
+  history: createWebHistory('/test-mems/'),
+  routes,  
 });
 
 export default router;

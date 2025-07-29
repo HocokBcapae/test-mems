@@ -28,7 +28,7 @@
         <button @click="resetZoom">⟳</button>
       </div>
 
-      <!-- 👇 Закрыть отдельно -->
+      <!--  Закрыть отдельно -->
       <button class="close-button" @click="closeImage">×</button>
     </div>
   </div>
